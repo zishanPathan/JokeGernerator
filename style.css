@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+   padding: 10% 25% 25%;
+    background-color: #18122B;
+    align-items: center;
+   
+}
+
+#container{
+    background-color: #635985;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+p{
+    color: white;
+    font-size: xx-large;
+}
+button{
+    padding:.24rem 1rem;
+    border: white;
+    border-radius: 5px;
+    color: #18122B;
+    margin-top: .5rem;
+    margin-left: 2.5rem;
+}
+@media(max-width:696px) {
+    body{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    } 
+}
